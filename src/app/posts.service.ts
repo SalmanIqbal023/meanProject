@@ -9,7 +9,7 @@ import { Post } from "./post.model";
 export class PostsService {
   private posts: Post[] = [];
   private postsUpdated = new Subject<Post[]>();
-
+  
   constructor(private http: HttpClient) {}
 
   getPosts() {

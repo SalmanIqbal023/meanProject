@@ -27,7 +27,7 @@
 
 
 
-import { PostsService } from './../posts.service';
+import { PostsService } from '../posts.service';
 import { Component, OnInit } from '@angular/core';  //,EventEmitter,Output>>>ye import mai likha tha
 import { NgForm } from '@angular/forms';
 //import { Post } from '../post.model';

@@ -18,6 +18,7 @@ import { CreatePostComponent } from './create-post/create-post.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './post-list/post-list.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { PostListComponent } from './post-list/post-list.component';
     CreatePostComponent,
     HeaderComponent,
     PostListComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
